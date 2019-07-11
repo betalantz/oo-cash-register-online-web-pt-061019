@@ -32,9 +32,9 @@ class CashRegister
 end
 
 cr1 = CashRegister.new
-cr1.add_item("Nikes", 120, 2)
-cr1.add_item("Adidas", 95, 1)
-cr1.add_item("Pumas", 80, 3)
+cr1.add_item("Nikes", 100, 2)
+cr1.add_item("Adidas", 100, 1)
+cr1.add_item("Pumas", 100, 3)
 puts cr1.total
 cr1.void_last_transaction
 puts cr1.total
