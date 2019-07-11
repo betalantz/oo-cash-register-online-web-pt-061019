@@ -36,7 +36,7 @@ cr1.add_item("Nikes", 100, 2)
 cr1.add_item("Adidas", 100, 1)
 cr1.add_item("Pumas", 100, 3)
 puts cr1.total
-puts cr1.transaction
+puts cr1.transactions
 cr1.void_last_transaction
 puts cr1.total
 cr1.void_last_transaction
