@@ -35,8 +35,8 @@ cr1 = CashRegister.new
 cr1.add_item("Nikes", 120, 2)
 cr1.add_item("Adidas", 95, 1)
 cr1.add_item("Pumas", 80, 3)
-cr1.total
+puts cr1.total
 cr1.void_last_transaction
-cr1.total
+puts cr1.total
 cr1.void_last_transaction
-cr1.total
+puts cr1.total
